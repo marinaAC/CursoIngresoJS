@@ -4,6 +4,14 @@
 */
 function mostrar()
 {
+	//Declaro variable
+	var nombre;
+
+	//asigno variable
+	nombre = prompt("Ingrese su nombre");
+
+	//asigno variable al id
+	document.getElementById("elNombre").value = nombre;
 
 }
 
